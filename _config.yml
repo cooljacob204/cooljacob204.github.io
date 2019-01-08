@@ -1,11 +1,11 @@
 # Site settings
 author: Jacob Feldman
-title: 
+title: Jacob's Flatiron Adventure 
 header-img: img/home-bg.png
 email: jacobgfeld@gmail.com
 copyright_name: Jacob Feldman
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A blog for things related to Jacob's Flatiron experience
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  cooljacob204
