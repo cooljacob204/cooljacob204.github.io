@@ -103,6 +103,6 @@ Then after I included those classes I can run my ```before(*instance_methods){bl
 
 One downside I found is that because I put shared functions into the Menu module the other menu Modules cannot work without the Menu Module. However I cannot include the Menu module in each class because I wouldn't be able to apply my clear console code chunk to them in one easy line.
 
-It's a slight downside but because everything is intended to be bundle together I think it is an acceptable tradeoff.
+It's a slight downside but because everything is intended to be bundled together I think it is an acceptable tradeoff.
 
 
