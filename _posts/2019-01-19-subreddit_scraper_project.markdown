@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Subreddit Scraper Project"
-date:       2019-01-19 22:38:07 +0000
+date:       2019-01-19 17:38:08 -0500
 permalink:  subreddit_scraper_project
 ---
 
