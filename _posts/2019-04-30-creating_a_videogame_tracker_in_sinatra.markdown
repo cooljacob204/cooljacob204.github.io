@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Creating a Videogame Tracker in Sinatra"
-date:       2019-05-01 00:09:49 +0000
+date:       2019-04-30 20:09:50 -0400
 permalink:  creating_a_videogame_tracker_in_sinatra
 ---
 
@@ -88,7 +88,7 @@ The objective of this app is to allow multiple users to create, edit and delete 
      * Accepts a @error hash.
        * {'error_type' => ['error_1', 'error_2']}
 
-## Problems I ran into and their workarounds
+# Problems I ran into and their workarounds
 ### Href not being able to Post
 When a User adds or removes a game to their library I felt that a Post request was much more appropriate then a get request because it was updating information. 
 
@@ -103,7 +103,7 @@ However in this instance I ran into no problems having my Controllers inherit fr
 
 I later learned that this is the way controllers are set up in Rails. So I was pretty hyped I stumbled upon a Rails design decision on my own.
 
-## Hosting
+# Hosting
 ### https://videogame-tracker.lfp2.gg
 I have the app currently hosted on my Google Kubernetes Engine cluster. It has 3 replicas and grabs the image from docker hub at cooljacob204/videogame-tracker.
 
